@@ -207,3 +207,8 @@ document.addEventListener(
   },
   false
 );
+
+function showMore() {
+  var element = document.getElementById("specialitati");
+  element.classList.remove("hidden");
+}
