@@ -914,35 +914,411 @@
             </div>
         </section>
 
-        <div class="bg-white text-white h-32 w-full flex items-center">
-            <div class="container flex items-center justify-between mx-auto">
-                <div>
-                    <h1 class="text-3xl font-bold text-black">Doctori inscrisi
-                        recent</h1>
-                    <p class="text-black">Daca vrei sa te inscrii, o poti face
-                        foarte simplu
-                        cu
-                        un singur click.</p>
+
+
+
+        <div class="bg-white">
+            <section class="py-16 mx-auto container lg:py-20">
+                <!-- <h2 class="mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+
+                    <span class="relative inline-block px-2">
+                        <div class="absolute inset-0 transform -skew-x-12 bg-blueish">
+                        </div>
+                        <span class="relative text-white">Medici</span>
+                    </span>
+                    inscrisi recent
+                </h2> -->
+
+                <div class="w-full flex items-center pb-10">
+                    <div class="container flex items-center justify-between mx-auto">
+                        <div>
+                            <h1 class="text-3xl font-bold text-black">Doctori inscrisi
+                                recent</h1>
+                            <p class="text-black">Daca vrei sa te inscrii, o poti face
+                                foarte simplu
+                                cu
+                                un singur click.</p>
+                        </div>
+                        <button
+                            class="bg-main text-white font-bold px-10 py-3 rounded-xl flex items-center transition duration-200 hover:bg-blueish"><svg
+                                fill="white" class="mr-2" height="13" viewBox="0 0 512 512" width="13"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m1.03125 492.398438c-1.5 5.203124 0 10.902343 3.796875 14.703124 2.800781 2.796876 6.703125 4.398438 10.601563 4.398438 1.398437 0 2.800781-.199219 4.101562-.601562l139.796875-39.898438-118.398437-118.398438zm0 0" />
+                                <path
+                                    d="m15.429688 512c-4.101563 0-8-1.601562-10.898438-4.5-4-4-5.5-9.800781-3.902344-15.199219l40.199219-140.601562 119.601563 119.601562-140.800782 40.097657c-1.398437.402343-2.800781.601562-4.199218.601562zm25.800781-158.5-39.699219 139c-1.402344 5.101562 0 10.5 3.699219 14.199219 2.699219 2.699219 6.398437 4.199219 10.199219 4.199219 1.300781 0 2.699218-.199219 4-.597657l139-39.699219zm0 0" />
+                                <path
+                                    d="m498.328125 77.199219-63.5-63.5c-8.597656-8.5-19.796875-13.199219-31.898437-13.199219-12 0-23.300782 4.699219-31.800782 13.101562l-31.800781 31.796876 127.101563 127.101562 31.800781-31.800781c8.5-8.5 13.097656-19.800781 13.097656-31.800781.101563-12-4.597656-23.199219-13-31.699219zm0 0" />
+                                <path
+                                    d="m466.53125 173.199219-127.800781-127.800781 32.097656-32.097657c8.601563-8.601562 20-13.300781 32.101563-13.300781 12.199218 0 23.601562 4.699219 32.101562 13.300781l63.5 63.5c8.597656 8.597657 13.296875 20 13.296875 32.097657 0 12.203124-4.699219 23.601562-13.296875 32.101562zm-126.402344-127.800781 126.402344 126.402343 31.398438-31.402343c8.398437-8.398438 13-19.5 13-31.398438s-4.601563-23-13-31.398438l-63.5-63.601562c-8.398438-8.398438-19.601563-13-31.5-13-11.898438 0-23 4.601562-31.398438 13zm0 0" />
+                                <path
+                                    d="m57.804688 327.015625 260.421874-260.425781 127.136719 127.136718-260.421875 260.425782zm0 0" />
+                                <path
+                                    d="m184.929688 454.898438-127.898438-127.898438 261.199219-261.101562 127.800781 127.800781zm-126.398438-127.898438 126.398438 126.398438 259.699218-259.699219-126.398437-126.398438zm0 0" />
+                            </svg> Inscrie-te acum!</button>
+                    </div>
                 </div>
-                <button
-                    class="bg-main text-white font-bold px-10 py-3 rounded-xl flex items-center transition duration-200 hover:bg-blueish"><svg
-                        fill="white" class="mr-2" height="13" viewBox="0 0 512 512" width="13"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="m1.03125 492.398438c-1.5 5.203124 0 10.902343 3.796875 14.703124 2.800781 2.796876 6.703125 4.398438 10.601563 4.398438 1.398437 0 2.800781-.199219 4.101562-.601562l139.796875-39.898438-118.398437-118.398438zm0 0" />
-                        <path
-                            d="m15.429688 512c-4.101563 0-8-1.601562-10.898438-4.5-4-4-5.5-9.800781-3.902344-15.199219l40.199219-140.601562 119.601563 119.601562-140.800782 40.097657c-1.398437.402343-2.800781.601562-4.199218.601562zm25.800781-158.5-39.699219 139c-1.402344 5.101562 0 10.5 3.699219 14.199219 2.699219 2.699219 6.398437 4.199219 10.199219 4.199219 1.300781 0 2.699218-.199219 4-.597657l139-39.699219zm0 0" />
-                        <path
-                            d="m498.328125 77.199219-63.5-63.5c-8.597656-8.5-19.796875-13.199219-31.898437-13.199219-12 0-23.300782 4.699219-31.800782 13.101562l-31.800781 31.796876 127.101563 127.101562 31.800781-31.800781c8.5-8.5 13.097656-19.800781 13.097656-31.800781.101563-12-4.597656-23.199219-13-31.699219zm0 0" />
-                        <path
-                            d="m466.53125 173.199219-127.800781-127.800781 32.097656-32.097657c8.601563-8.601562 20-13.300781 32.101563-13.300781 12.199218 0 23.601562 4.699219 32.101562 13.300781l63.5 63.5c8.597656 8.597657 13.296875 20 13.296875 32.097657 0 12.203124-4.699219 23.601562-13.296875 32.101562zm-126.402344-127.800781 126.402344 126.402343 31.398438-31.402343c8.398437-8.398438 13-19.5 13-31.398438s-4.601563-23-13-31.398438l-63.5-63.601562c-8.398438-8.398438-19.601563-13-31.5-13-11.898438 0-23 4.601562-31.398438 13zm0 0" />
-                        <path
-                            d="m57.804688 327.015625 260.421874-260.425781 127.136719 127.136718-260.421875 260.425782zm0 0" />
-                        <path
-                            d="m184.929688 454.898438-127.898438-127.898438 261.199219-261.101562 127.800781 127.800781zm-126.398438-127.898438 126.398438 126.398438 259.699218-259.699219-126.398437-126.398438zm0 0" />
-                    </svg> Inscrie-te acum!</button>
-            </div>
+
+                <div class="grid gap-4 lg:grid-cols-5 sm:max-w-sm sm:mx-auto lg:max-w-full">
+
+                    <div class="bg-white shadow-lg rounded-lg">
+                        <div class="px-5 py-12 text-center">
+                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
+                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/5829e837-ce6c-4e6d-a767-5e828ac97da0.jpg"
+                                    alt="profile image" class="w-full h-full object-cover">
+                            </div>
+                            <h5 class="mt-4 text-base font-medium">Professor Chris Hammond</h5>
+                            <span class="text-sm text-indigo-500 font-medium">Ophthalmologist</span>
+                            <p class="text-xs mt-2 cut-text">Strabismus (squint), Myopia , Cataracts, Glaucoma , Dry
+                                eye,
+                                Vision therapy</p>
+                            <div class="flex mt-4 mx-auto items-center justify-center">
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                            </div>
+                            <div class="text-center text-sm mt-4 flex items-center justify-center">
+                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
+                                </svg>Locatie: Iasi
+                            </div>
+                        </div>
+                        <div class="flex border-t border-solid divide-x">
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
+
+                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
+                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
+                                </svg>
+                                Apeleaza
+                            </a>
+
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
+
+                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                </svg>
+                                Programare
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white shadow-lg rounded-lg">
+                        <div class="px-5 py-12 text-center">
+                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
+                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/prof__20200602160728.png"
+                                    alt="profile image" class="w-full h-full object-cover">
+                            </div>
+                            <h5 class="mt-4 text-base font-medium">Dr Danny Mitry</h5>
+                            <span class="text-sm text-indigo-500 font-medium">Ophthalmologist</span>
+                            <p class="text-xs mt-2 cut-text">Retinal detachment surgery, Cataracts, Refractive lens
+                                exchange ,
+                                Diabetic retinopathy , Macular degeneration (AMD),
+                                Macular hole</p>
+                            <div class="flex mt-4 mx-auto items-center justify-center">
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                            </div>
+                            <div class="text-center text-sm mt-4 flex items-center justify-center">
+                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
+                                </svg>Locatie: Bucuresti
+                            </div>
+                        </div>
+                        <div class="flex border-t border-solid divide-x">
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
+
+                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
+                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
+                                </svg>
+                                Apeleaza
+                            </a>
+
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
+
+                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                </svg>
+                                Programare
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white shadow-lg rounded-lg">
+                        <div class="px-5 py-12 text-center">
+                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
+                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/5b62dfca-3e40-4ad4-9dba-3e1425bbab96.png"
+                                    alt="profile image" class="w-full h-full object-cover">
+                            </div>
+                            <h5 class="mt-4 text-base font-medium">Mr Sui-Chien Wong</h5>
+                            <span class="text-sm text-indigo-500 font-medium">Ophthalmologist</span>
+                            <p class="text-xs mt-2 cut-text">Retinal detachment, Epiretinal membrane , Macular hole ,
+                                Eye
+                                floaters, Vitrectomy, Cataracts</p>
+                            <div class="flex mt-4 mx-auto items-center justify-center">
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                            </div>
+                            <div class="text-center text-sm mt-4 flex items-center justify-center">
+                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
+                                </svg>Locatie: Cluj-Napoca
+                            </div>
+                        </div>
+                        <div class="flex border-t border-solid divide-x">
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
+
+                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
+                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
+                                </svg>
+                                Apeleaza
+                            </a>
+
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
+
+                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                </svg>
+                                Programare
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white shadow-lg rounded-lg">
+                        <div class="px-5 py-12 text-center">
+                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
+                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/prof_2060_20200513090746.jpeg"
+                                    alt="profile image" class="w-full h-full object-cover">
+                            </div>
+                            <h5 class="mt-4 text-base font-medium">Mr Nick Koutroumanos</h5>
+                            <span class="text-sm text-indigo-500 font-medium">Ophthalmologist</span>
+                            <p class="text-xs mt-2 cut-text">Oculoplastics, Blepharoplasty , Watery eyes, Oculo-facial
+                                plastic
+                                and cosmetic surgery, Eyelid lump, Ptosis (droopy eye)</p>
+                            <div class="flex mt-4 mx-auto items-center justify-center">
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                            </div>
+                            <div class="text-center text-sm mt-4 flex items-center justify-center">
+                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
+                                </svg>Locatie: Timisoara
+                            </div>
+                        </div>
+                        <div class="flex border-t border-solid divide-x">
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
+
+                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
+                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
+                                </svg>
+                                Apeleaza
+                            </a>
+
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
+
+                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                </svg>
+                                Programare
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg">
+                        <div class="px-5 py-12 text-center">
+                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
+                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/5b1f8601-5188-4cb4-adc1-23fa25bbab96.png"
+                                    alt="profile image" class="w-full h-full object-cover">
+                            </div>
+                            <h5 class="mt-4 text-base font-medium">Ms Ranjit Sandhu</h5>
+                            <span class="text-sm text-indigo-500 font-medium">Ophthalmologist</span>
+                            <p class="text-xs mt-2 cut-text">Cataracts, Macular degeneration (AMD), Diabetic retinopathy
+                                , Uveitis , Watery eyes, Dry eye</p>
+                            <div class="flex mt-4 mx-auto items-center justify-center">
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
+                                </svg>
+                            </div>
+                            <div class="text-center text-sm mt-4 flex items-center justify-center">
+                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
+                                </svg>Locatie: Timisoara
+                            </div>
+                        </div>
+                        <div class="flex border-t border-solid divide-x">
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
+
+                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
+                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
+                                </svg>
+                                Apeleaza
+                            </a>
+
+                            <a href="#"
+                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
+
+                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
+                                </svg>
+                                Programare
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
+
 
 
         <section class="text-gray-600 body-font" style="background: url(compress.jpg)">
@@ -1554,308 +1930,7 @@
 
 
 
-        <div style="background: #e4e4e4;">
-            <section class="py-16 mx-auto container lg:py-20">
-                <h2 class="mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
 
-                    <span class="relative inline-block px-2">
-                        <div class="absolute inset-0 transform -skew-x-12 bg-blueish">
-                        </div>
-                        <span class="relative text-white">Medici</span>
-                    </span>
-                    inscrisi recent
-                </h2>
-
-                <div class="grid gap-4 lg:grid-cols-4 sm:max-w-sm sm:mx-auto lg:max-w-full">
-
-                    <div class="bg-white shadow-lg rounded-lg">
-                        <div class="px-5 py-12 text-center">
-                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
-                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/5829e837-ce6c-4e6d-a767-5e828ac97da0.jpg"
-                                    alt="profile image" class="w-full h-full object-cover">
-                            </div>
-                            <h5 class="mt-4 text-xl font-medium">Professor Chris Hammond</h5>
-                            <span class="text-base text-indigo-500 font-medium">Ophthalmologist</span>
-                            <p class="text-xs mt-2 cut-text">Strabismus (squint), Myopia , Cataracts, Glaucoma , Dry
-                                eye,
-                                Vision therapy</p>
-                            <div class="flex mt-4 mx-auto items-center justify-center">
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                            </div>
-                            <div class="text-center text-sm mt-4 flex items-center justify-center">
-                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
-                                </svg>Locatie: Iasi
-                            </div>
-                        </div>
-                        <div class="flex border-t border-solid divide-x">
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
-
-                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
-                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
-                                </svg>
-                                Apeleaza
-                            </a>
-
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
-
-                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
-                                </svg>
-                                Programare
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white shadow-lg rounded-lg">
-                        <div class="px-5 py-12 text-center">
-                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
-                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/prof__20200602160728.png"
-                                    alt="profile image" class="w-full h-full object-cover">
-                            </div>
-                            <h5 class="mt-4 text-xl font-medium">Dr Danny Mitry</h5>
-                            <span class="text-base text-indigo-500 font-medium">Ophthalmologist</span>
-                            <p class="text-xs mt-2 cut-text">Retinal detachment surgery, Cataracts, Refractive lens
-                                exchange ,
-                                Diabetic retinopathy , Macular degeneration (AMD),
-                                Macular hole</p>
-                            <div class="flex mt-4 mx-auto items-center justify-center">
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                            </div>
-                            <div class="text-center text-sm mt-4 flex items-center justify-center">
-                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
-                                </svg>Locatie: Bucuresti
-                            </div>
-                        </div>
-                        <div class="flex border-t border-solid divide-x">
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
-
-                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
-                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
-                                </svg>
-                                Apeleaza
-                            </a>
-
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
-
-                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
-                                </svg>
-                                Programare
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white shadow-lg rounded-lg">
-                        <div class="px-5 py-12 text-center">
-                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
-                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/5b62dfca-3e40-4ad4-9dba-3e1425bbab96.png"
-                                    alt="profile image" class="w-full h-full object-cover">
-                            </div>
-                            <h5 class="mt-4 text-xl font-medium">Mr Sui-Chien Wong</h5>
-                            <span class="text-base text-indigo-500 font-medium">Ophthalmologist</span>
-                            <p class="text-xs mt-2 cut-text">Retinal detachment, Epiretinal membrane , Macular hole ,
-                                Eye
-                                floaters, Vitrectomy, Cataracts</p>
-                            <div class="flex mt-4 mx-auto items-center justify-center">
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                            </div>
-                            <div class="text-center text-sm mt-4 flex items-center justify-center">
-                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
-                                </svg>Locatie: Cluj-Napoca
-                            </div>
-                        </div>
-                        <div class="flex border-t border-solid divide-x">
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
-
-                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
-                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
-                                </svg>
-                                Apeleaza
-                            </a>
-
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
-
-                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
-                                </svg>
-                                Programare
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white shadow-lg rounded-lg">
-                        <div class="px-5 py-12 text-center">
-                            <div class="w-24 h-24 rounded-full mx-auto overflow-hidden">
-                                <img src="https://www.topdoctors.co.uk/files/Doctor/results/prof_2060_20200513090746.jpeg"
-                                    alt="profile image" class="w-full h-full object-cover">
-                            </div>
-                            <h5 class="mt-4 text-xl font-medium">Mr Nick Koutroumanos</h5>
-                            <span class="text-base text-indigo-500 font-medium">Ophthalmologist</span>
-                            <p class="text-xs mt-2 cut-text">Oculoplastics, Blepharoplasty , Watery eyes, Oculo-facial
-                                plastic
-                                and cosmetic surgery, Eyelid lump, Ptosis (droopy eye)</p>
-                            <div class="flex mt-4 mx-auto items-center justify-center">
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#F8B133" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                                <svg width="15" height="15" class="mx-1" fill="#d2d2d2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" />
-                                </svg>
-                            </div>
-                            <div class="text-center text-sm mt-4 flex items-center justify-center">
-                                <svg width="12" height="12" class="mr-1" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z" />
-                                </svg>Locatie: Timisoara
-                            </div>
-                        </div>
-                        <div class="flex border-t border-solid divide-x">
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300">
-
-                                <svg width="15" height="15" class="mr-2" style="margin-top: 2px;"
-                                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
-                                </svg>
-                                Apeleaza
-                            </a>
-
-                            <a href="#"
-                                class="text-sm text-center py-3 flex-grow justify-center flex transition-colors duration-300 items-center">
-
-                                <svg width="15" height="15" class="mr-2" viewBox="0 0 1792 1792"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" />
-                                </svg>
-                                Programare
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-        </div>
 
 
         <div class="pt-16 mx-auto container">
