@@ -6,6 +6,14 @@
   .blurred {
     backdrop-filter: blur(10px);
   }
+  .cut-text {
+    display: -webkit-box;
+    height: 35px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 /* 
 @font-face {

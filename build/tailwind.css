@@ -10,6 +10,12 @@
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.divide-x > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 0;
+  border-right-width: calc(1px * var(--tw-divide-x-reverse));
+  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -149,6 +155,10 @@
   border-radius: 9999px;
 }
 
+.border-solid {
+  border-style: solid;
+}
+
 .border {
   border-width: 1px;
 }
@@ -277,6 +287,10 @@
   height: 4rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -350,6 +364,11 @@
 
 .-m-4 {
   margin: -1rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-2 {
@@ -517,6 +536,11 @@
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-16 {
@@ -757,6 +781,10 @@
   width: 2.5rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -876,6 +904,15 @@
 .blurred {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+}
+
+.cut-text {
+  display: -webkit-box;
+  height: 35px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -1097,6 +1134,7 @@ Add the correct display in Chrome and Safari.
 h1,
 h2,
 h3,
+h5,
 hr,
 p {
   margin: 0;
@@ -1225,7 +1263,8 @@ button {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
   font-size: inherit;
   font-weight: inherit;
 }
