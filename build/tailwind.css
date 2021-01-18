@@ -642,10 +642,6 @@
   margin-bottom: 5rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .mr-auto {
   margin-right: auto;
 }
@@ -858,10 +854,6 @@
   padding-top: 2.75rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -872,10 +864,6 @@
 
 .pt-16 {
   padding-top: 4rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .pt-px {
@@ -1563,7 +1551,6 @@ h1,
 h2,
 h3,
 h5,
-h6,
 hr,
 p {
   margin: 0;
@@ -1698,8 +1685,7 @@ button {
 h1,
 h2,
 h3,
-h5,
-h6 {
+h5 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -2024,11 +2010,6 @@ body {
 
   .lg\:p-0 {
     padding: 0px;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .lg\:py-20 {
