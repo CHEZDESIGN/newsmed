@@ -12,9 +12,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "NODE_ENV=production postcss css/tailwind.css -o build/tailwind.css",
-    "dev": "npx tailwindcss-cli@latest build css/tailwind.css -o dist/tailwind.css",
-    "watch": "postcss -w css/tailwind.css -o dist/tailwind.css"
+    "build": "NODE_ENV=production postcss assets/css/tailwind.css -o build/tailwind.css",
+    "dev": "npx tailwindcss-cli@latest build assets/css/tailwind.css -o dist/tailwind.css",
+    "watch": "postcss -w assets/css/tailwind.css -o dist/tailwind.css"
   },
   "keywords": [],
   "author": "",
