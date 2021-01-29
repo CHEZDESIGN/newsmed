@@ -733,10 +733,6 @@
   margin-bottom: -0.25rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-lg {
   max-width: 32rem;
 }
@@ -2475,10 +2471,6 @@ body {
 
   .xl\:mr-2 {
     margin-right: 0.5rem;
-  }
-
-  .xl\:mb-12 {
-    margin-bottom: 3rem;
   }
 
   .xl\:px-0 {
