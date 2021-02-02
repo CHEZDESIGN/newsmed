@@ -180,3 +180,7 @@ function toggleModal(modalID) {
   document.getElementById(modalID).classList.toggle("block");
   document.body.classList.toggle("overflow-y-hidden h-screen");
 }
+
+function rating() {
+  document.getElementById("rating").classList.toggle("hidden");
+}

@@ -7,7 +7,7 @@ module.exports = {
         blueish: "#1078b7",
         main: "#083b5b",
         green: "#63ca6b",
-        // orange: "#f8b133",
+        darken: "#444444",
         orange: {
           DEFAULT: "#F8B133",
           100: "#FFFCF8",
@@ -36,7 +36,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ["responsive", "hover", "focus", "active", "group-hover"],
+    },
   },
   plugins: [],
 };
