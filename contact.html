@@ -137,17 +137,7 @@
                             <li><a class="nav-link" href="medic.html">Pagina de doctor</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <span class="submenu">Boli si afectiuni <span
-                                class="text-xs hidden lg:inline-block">&#9660;</span></span>
-                        <ul class="submenu">
-                            <li>
-                                <a class="nav-link" href="#">Nomenclator boli si afectiuni cu ce doctori trateaza</a>
-                            </li>
-                            <li><a class="nav-link" href="#">Lista medici</a></li>
-                            <li><a class="nav-link" href="#">Programare/Cerere oferta</a></li>
-                        </ul>
-                    </li>
+                    
                     <li>
                         <span class="submenu">Interpretari analize <span
                                 class="text-xs hidden lg:inline-block">&#9660;</span></span>
@@ -207,55 +197,45 @@
 
 
     <div class="py-16 mx-auto w-full container lg:py-12">
-        <div class="grid gap-8 row-gap-10 lg:grid-cols-3">
+        <div class="grid items-start gap-8 row-gap-10 lg:grid-cols-3">
             <div class="flex flex-col justify-center">
                 <div class="flex flex-col md:justify-start my-auto pt-8 md:pt-0">
-                    <p class="text-left text-3xl font-black">Contact</p>
-                    <p class="text-left text-sm">Pentru colaborari/parteneriate, va rugam sa folositi adresele de mai
+                    <p class="text-left text-3xl font-black mb-1">Contact</p>
+                    <p class="text-left text-xs">Pentru colaborari/parteneriate, va rugam sa folositi adresele de mai
                         jos.
                     </p>
-                    <form class="flex flex-col pt-3 md:pt-8" onsubmit="event.preventDefault();">
-                        <div class="flex flex-col pt-4">
-                            <label for="nume" class="text-base">Numele dumneavoastra</label>
-                            <input type="text" id="nume"
-                                class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+             
+                   
+                    <form onsubmit="event.preventDefault();" class="rounded editor mt-8 mx-auto w-full flex flex-col text-gray-800 border border-gray-300 p-4 shadow ">
+                        <input class="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none" spellcheck="false" placeholder="Numele dumneavoastra"
+                            type="text">
+                        <input class="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none" spellcheck="false" placeholder="Adresa de email"
+                            type="text">
+                        <input class="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none" spellcheck="false" placeholder="Subiect"
+                            type="text">
+                        <textarea rows="4" class="description bg-gray-100 sec p-2 h-60 border border-gray-300 outline-none" spellcheck="false"
+                            placeholder="Mesajul dumneavoastra..."></textarea>
+                    
+                       
+                        <div class="buttons flex justify-end mt-4">
+                          
+                            <button type="submit"
+                                class="btn border rounded border-blueish p-1 px-4 font-semibold cursor-pointer text-gray-200 ml-2 bg-blueish">
+                                Trimite comentariul</button>
                         </div>
-
-                        <div class="flex flex-col pt-4">
-                            <label for="email" class="text-base">Adresa de email</label>
-                            <input type="email" id="email"
-                                class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
-                        </div>
-
-                        <div class="flex flex-col pt-4">
-                            <label for="subiect" class="text-base">Subiect</label>
-                            <input type="text" id="subiect"
-                                class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
-                        </div>
-
-                        <div class="flex flex-col pt-4">
-                            <label for="nume" class="text-base">Numele dumneavoastra</label>
-                            <textarea id="comentariu" rows="4"
-                                class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
-                                name="comentariu"></textarea>
-                        </div>
-
-                        <input type="submit" value="Trimite mesajul"
-                            class="bg-main rounded shadow-lg text-white font-bold text-lg cursor-pointer hover:bg-gray-700 p-2 mt-8">
                     </form>
-
-
+                
                 </div>
             </div>
             <div class="col-span-2">
 
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.389884141357!2d26.07030065097896!3d44.445675978999525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201e4bbe7ffbd%3A0x9252b2ec29b7d0f!2sStrada%20Institutul%20Medico-Militar%2016%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1612294300907!5m2!1sen!2sro"
-                    class="w-full h-56 rounded shadow-lg sm:h-96" style="height: 30rem;" frameborder="0"
+                    class="w-full h-56 rounded shadow sm:h-96 border border-gray-300" style="height: 28.7rem;" frameborder="0"
                     style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 <iframe
                     src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewsmed.ro%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId"
-                    class="w-full mt-8" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    class="w-full mt-4" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>

@@ -184,3 +184,37 @@ function toggleModal(modalID) {
 function rating() {
   document.getElementById("rating").classList.toggle("hidden");
 }
+
+
+/****************************Interpretari analize scroll efect on medic image */
+
+var medicImage = document.querySelector("#medic");
+var medici = document.querySelector("#medici");
+
+function checkOffset() {
+  function getRectTop(el) {
+    var rect = el.getBoundingClientRect();
+    return rect.top;
+  }
+
+  if (
+    getRectTop(medicImage) +
+      document.body.scrollTop +
+      medicImage.offsetHeight >=
+    getRectTop(medici) + document.body.scrollTop - 10
+  )
+    medicImage.style.position = "absolute";
+    medicImage.style.position = "right: 0";
+  if (
+    document.body.scrollTop + window.innerHeight <
+    getRectTop(medici) + document.body.scrollTop
+  )
+    medicImage.style.position = "fixed"; // restore when you scroll up
+    medicImage.style.position = "right: 80px"; // restore when you scroll up
+
+  medicImage.innerHTML = document.body.scrollTop + window.innerHeight;
+}
+
+document.addEventListener("scroll", function () {
+  checkOffset();
+});

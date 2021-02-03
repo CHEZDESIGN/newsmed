@@ -54,6 +54,49 @@ body {
   -o-transition: all 200ms ease-in-out;
 }
 
+@keyframes scale {
+  from {
+    transform: transaleX(0px);
+    -webkit-transform: transaleX(0px);
+    -moz-transform: transaleX(0px);
+    -ms-transform: transaleX(0px);
+    -o-transform: transaleX(0px);
+}
+  to {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+}
+@keyframes scaledown {
+  from {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+  to {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+}
+
+.animated-arrow {
+  animation: scale 500ms infinite alternate;
+  -webkit-animation: scale 500ms infinite alternate;
+}
+
+.animated-arrow-down {
+  animation: scaledown 500ms infinite alternate;
+  -webkit-animation: scaledown 500ms infinite alternate;
+}
+
 @responsive {
   .nm-height {
     height: 600px;

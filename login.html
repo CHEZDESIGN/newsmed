@@ -24,7 +24,7 @@
                         src="assets/img/logo.png" width="150" height="30" alt="Logo"></a>
             </div>
 
-            <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
+            <div class="flex flex-col justify-center md:justify-start my-auto pt-18 px-8 md:px-24 lg:px-32">
                 <p class="text-center text-3xl mx-auto font-black">Bine ai venit!</p>
                 <p class="text-center text-sm">Pentru a-ti accesa contul, te rugam sa iti introduci adresa de email si
                     parola
@@ -32,22 +32,56 @@
                     contul.</p>
                 <form class="flex flex-col pt-3 md:pt-8" onsubmit="event.preventDefault();">
                     <div class="flex flex-col pt-4">
-                        <label for="email" class="text-base">Adresa de email</label>
+                        <label for="email" class="text-base flex items-center">
+                            <svg version="1.1" width="12" height="12" class="mr-2" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M437.02,74.981C388.668,26.629,324.381,0,256,0S123.334,26.629,74.981,74.981C26.63,123.333,0.001,187.62,0.001,256
+                                                    			s26.629,132.667,74.981,181.02C123.334,485.371,187.621,512,256.001,512c42.42,0,84.448-10.595,121.539-30.638
+                                                    			c7.483-4.043,10.271-13.387,6.227-20.871c-4.042-7.482-13.385-10.27-20.87-6.227c-32.609,17.621-69.573,26.934-106.896,26.934
+                                                    			C131.826,481.198,30.802,380.175,30.802,256S131.826,30.802,256,30.802c124.175,0,225.198,101.024,225.198,225.198
+                                                    			c0,29.389-7.139,64.356-13.546,77.359c-5.682,11.53-21.78,27.768-39.78,27.768c-23.299,0-42.255-18.955-42.255-42.254V156.484
+                                                    			c0-8.505-6.896-15.401-15.401-15.401s-15.401,6.895-15.401,15.401v15.736c-23.794-28.021-59.26-45.837-98.815-45.837
+                                                    			c-71.47,0-129.617,58.146-129.617,129.617c0,71.47,58.145,129.617,129.617,129.617c40.84,0,77.322-18.991,101.097-48.601
+                                                    			c8.089,31.535,36.752,54.912,70.774,54.912c29.711,0,56.402-22.615,67.41-44.954c9.375-19.024,16.718-58.984,16.718-90.973
+                                                    			C512,187.62,485.371,123.333,437.02,74.981z M256,354.815c-54.486,0-98.815-44.328-98.815-98.815
+                                                    			c0-54.487,44.328-98.815,98.815-98.815c54.487,0,98.815,44.328,98.815,98.815C354.815,310.487,310.487,354.815,256,354.815z" />
+                                    </g>
+                                </g>
+
+                            </svg>Adresa de email</label>
                         <input type="email" id="email" placeholder="adresa@email.ro"
                             class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
                     </div>
 
                     <div class="flex flex-col pt-4">
-                        <label for="password" class="text-base">Parola</label>
+                        <label for="password" class="text-base flex items-center">
+                            <svg width="12" height="12" class="mr-2" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M17 8H7V7a5 5 0 019.375-2.422 1 1 0 001.749-.971A7 7 0 005 7v1.424A5 5 0 002 13v6a5.006 5.006 0 005 5h10a5.006 5.006 0 005-5v-6a5.006 5.006 0 00-5-5zm3 11a3 3 0 01-3 3H7a3 3 0 01-3-3v-6a3 3 0 013-3h10a3 3 0 013 3z" />
+                                <path d="M12 14a1 1 0 00-1 1v2a1 1 0 002 0v-2a1 1 0 00-1-1z" />
+                            </svg>
+                            Parola</label>
                         <input type="password" id="password" placeholder="***********"
                             class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
                     </div>
 
-                    <input type="submit" value="Intra in cont"
-                        class="bg-main rounded shadow-lg text-white font-bold text-lg cursor-pointer hover:bg-gray-700 p-2 mt-8">
+                    <button type="submit"
+                        class="bg-main relative text-center flex items-center justify-center rounded shadow-lg text-white font-bold text-lg cursor-pointer hover:bg-blueish p-2 mt-8">
+                        <svg class="w-5 h-5 absolute left-2 animated-arrow" fill="#fff"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M13.121 6.293a1 1 0 000 1.414L16.413 11 6 11.007a1 1 0 100 2L16.414 13l-3.293 3.293a1 1 0 101.414 1.414l3.586-3.585a3 3 0 000-4.243l-3.586-3.586a1 1 0 00-1.414 0z" />
+                        </svg>
+                        Intra in cont
+                    </button>
                 </form>
                 <div class="text-center pt-8 pb-12">
-                    <p>Nu ai inca un cont? <a href="register.html" class="underline font-semibold">Creeaza unul
+                    <p>Nu ai inca un cont? <a href="register.html" class="underline font-semibold hover:text-orange">Creeaza unul
                             aici.</a>
                     </p>
                 </div>
