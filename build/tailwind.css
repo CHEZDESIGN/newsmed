@@ -107,11 +107,6 @@
   background-color: rgba(8, 59, 91, var(--tw-bg-opacity));
 }
 
-.bg-darken {
-  --tw-bg-opacity: 1;
-  background-color: rgba(68, 68, 68, var(--tw-bg-opacity));
-}
-
 .bg-orange-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(240, 156, 8, var(--tw-bg-opacity));
