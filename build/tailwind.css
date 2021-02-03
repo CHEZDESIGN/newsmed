@@ -22,12 +22,6 @@
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -73,9 +67,9 @@
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
-.bg-gray-400 {
+.bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
 .bg-gray-900 {
@@ -152,21 +146,6 @@
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
-}
-
 .hover\:bg-blueish:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(16, 120, 183, var(--tw-bg-opacity));
@@ -238,11 +217,6 @@
 .border-gray-800 {
   --tw-border-opacity: 1;
   border-color: rgba(31, 41, 55, var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
 }
 
 .border-blueish {
@@ -407,6 +381,10 @@
   justify-content: space-between;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-none {
   flex: none;
 }
@@ -517,10 +495,6 @@
 
 .h-auto {
   height: auto;
-}
-
-.h-px {
-  height: 1px;
 }
 
 .h-full {
@@ -1335,16 +1309,6 @@
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgba(37, 99, 235, var(--tw-text-opacity));
-}
-
 .text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgba(99, 102, 241, var(--tw-text-opacity));
@@ -1358,11 +1322,6 @@
 .text-darken {
   --tw-text-opacity: 1;
   color: rgba(68, 68, 68, var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:text-white {
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .hover\:text-black:hover {
@@ -1465,10 +1424,6 @@
 
 .w-12 {
   width: 3rem;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .w-24 {
@@ -2095,6 +2050,7 @@ textarea {
 
 img,
 svg,
+video,
 iframe {
   display: block;
   vertical-align: middle;
@@ -2107,7 +2063,8 @@ iframe {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-img {
+img,
+video {
   max-width: 100%;
   height: auto;
 }
