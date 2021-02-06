@@ -185,6 +185,11 @@ function rating() {
   document.getElementById("rating").classList.toggle("hidden");
 }
 
+function showRecenzii() {
+  document.getElementById("recenzii").classList.toggle("hidden");
+}
+
+
 
 /****************************Interpretari analize scroll efect on medic image */
 
@@ -218,3 +223,24 @@ function checkOffset() {
 document.addEventListener("scroll", function () {
   checkOffset();
 });
+
+
+/*********************************interpretari analize show section by select */
+
+function showSection(val) {
+  var atasament = document.getElementById("atasament");
+  var text = document.getElementById("text");
+
+  switch (val) {
+    case "1": {
+      atasament.style.display = "block";
+      text.style.display = "none";
+      break;
+    }
+    case "2": {
+      text.style.display = "block";
+      atasament.style.display = "none";
+      break;
+    }
+  }
+}
