@@ -38,6 +38,7 @@ module.exports = {
   variants: {
     extend: {
       scale: ["responsive", "hover", "focus", "active", "group-hover"],
+      gap: ["responsive", "hover", "focus"],
     },
   },
   plugins: [],

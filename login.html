@@ -19,13 +19,13 @@
 
 <div class="flex items-center min-h-screen p-4 bg-gray-100 lg:justify-center">
     <div
-        class="flex flex-col overflow-hidden bg-white rounded-md shadow-lg md:flex-row md:flex-1 lg:max-w-screen-md">
+        class="flex flex-col overflow-hidden bg-white rounded-md shadow-lg md:flex-row w-full lg:max-w-5xl order-last md:order-first">
         <div
-            class="p-4 py-6 text-white bg-blueish md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
+            class="p-8 py-6 text-white bg-blueish md:flex-shrink-0 md:flex md:flex-col w-full md:w-2/4 lg:w-3/5 md:items-center md:justify-evenly">
             <div class="my-3 text-4xl font-bold tracking-wider text-center">
                 <a href="#"><img src="assets/img/logo.png" width="150" height="30" alt="Logo"></a>
             </div>
-            <p class="mt-6 font-normal text-center text-sm text-gray-300 md:mt-0">
+            <p class="mt-6 font-normal text-center text-base text-gray-300 md:mt-0">
                 Ești un medic bun, dar încă nu te-ai remarcat? <br/> Listează-ți serviciile pe NewsMed.ro și intră în contact cu mii de
                 pacienți
             </p>
@@ -40,16 +40,16 @@
             </p>
             <p class="mt-6 text-sm text-center text-gray-300">
                 <a href="/"
-                    class="transition duration-200 px-5 py-4 cursor-pointer font-normal text-sm rounded-lg hover:bg-gray-200 hover:text-gray-600 focus:outline-none focus:bg-gray-300 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 ring-inset mx-auto">
+                    class="transition duration-200 px-5 py-4 cursor-pointer font-normal text-sm rounded-lg hover:bg-gray-200 hover:text-gray-600 focus:outline-none focus:bg-gray-300 focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 ring-inset mx-auto flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        class="w-4 h-4 inline-block align-text-top">
+                        class="w-3 h-3">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                     </svg>
-                    <span class="inline-block ml-1">Inapoi pe newsmed.ro</span>
+                    <span class="ml-1">Inapoi pe newsmed.ro</span>
                 </a>
             </p>
         </div>
-        <div class="p-5 pb-8 bg-white flex-1 h-full w-full">
+        <div class="p-5 pb-8 bg-white flex-1 h-full login order-first md:order-last">
             <h3 class="my-4 text-2xl text-center font-semibold text-gray-700">Autentificare</h3>
             <form action="#" class="flex flex-col space-y-5">
                 <div class="flex flex-col space-y-1">
@@ -82,7 +82,7 @@
                     <span class="flex items-center justify-center space-x-2">
                        
                         <span class="font-normal text-gray-500 text-sm">
-                            <p>Nu ai inca un cont? <a href="register.html" class="underline font-semibold hover:text-orange">Creeaza unul
+                            <p>Nu ai inca un cont? <a href="register.html" class="underline font-semibold hover:text-orange">Creaza unul
                                     aici.</a>
                             </p>
                         </span>
@@ -160,7 +160,7 @@
                     </button>
                 </form>
                 <div class="text-center pt-8 pb-12">
-                    <p>Nu ai inca un cont? <a href="register.html" class="underline font-semibold hover:text-orange">Creeaza unul
+                    <p>Nu ai inca un cont? <a href="login.html" class="underline font-semibold hover:text-orange">Creeaza unul
                             aici.</a>
                     </p>
                 </div>
