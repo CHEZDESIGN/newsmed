@@ -1730,14 +1730,14 @@
                     </div>
                     <div class="flex flex-col lg:flex-row w-full">
                         <button
-                            class="bg-white text-black px-10 h-12 flex items-center justify-center rounded-xl focus:shadow-outline focus:outline-none font-bold hover:bg-gray-200 hover:text-black transition duration-200 lg:mr-4 mb-2 lg:mb-0 text-xs lg:text-base"><span
+                            class="bg-white text-black px-10 h-12 flex items-center justify-center rounded-xl focus:shadow-outline focus:outline-none font-bold hover:bg-gray-200 hover:text-black transition duration-200 lg:mr-4 mb-2 lg:mb-0 text-xs lg:text-sm"><span
                                 class="text-xs lg:text-xl mr-2" style="margin-top: -2px;">&raquo;</span>
                             Medici care interpreteaza
                             analize</button>
                         <button onclick="showRecenzii()"
-                            class="border border-white text-white px-10 h-12 flex items-center justify-center rounded-xl focus:shadow-outline focus:outline-none font-bold hover:border-orange transition duration-200 text-xs lg:text-base mr-2"><span
+                            class="border border-white text-white px-10 h-12 flex items-center justify-center rounded-xl focus:shadow-outline focus:outline-none font-bold hover:border-orange transition duration-200 text-xs lg:text-sm mr-2"><span
                                 class="text-xs lg:text-xl">
-                                <svg width="20" height="20" fill="white" viewBox="0 0 1792 1792"
+                                <svg class="mr-2" width="20" height="20" fill="white" viewBox="0 0 1792 1792"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M1408 768q0 139-94 257t-256.5 186.5-353.5 68.5q-86 0-176-16-124 88-278 128-36 9-86 16h-3q-11 0-20.5-8t-11.5-21q-1-3-1-6.5t.5-6.5 2-6l2.5-5 3.5-5.5 4-5 4.5-5 4-4.5q5-6 23-25t26-29.5 22.5-29 25-38.5 20.5-44q-124-72-195-177t-71-224q0-139 94-257t256.5-186.5 353.5-68.5 353.5 68.5 256.5 186.5 94 257zm384 256q0 120-71 224.5t-195 176.5q10 24 20.5 44t25 38.5 22.5 29 26 29.5 23 25q1 1 4 4.5t4.5 5 4 5 3.5 5.5l2.5 5 2 6 .5 6.5-1 6.5q-3 14-13 22t-22 7q-50-7-86-16-154-40-278-128-90 16-176 16-271 0-472-132 58 4 88 4 161 0 309-45t264-129q125-92 192-212t67-254q0-77-23-152 129 71 204 178t75 230z" />
@@ -1771,7 +1771,83 @@
                                             class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 text-xs font-medium placeholder-gray-700 focus:outline-none focus:bg-white"
                                             name="body" placeholder='Comentariul tau' required></textarea>
                                     </div>
-                                    <div class="w-full flex justify-end px-3">
+                                    <div class="w-full flex flex-col md:flex-row justify-between px-3">
+                                        <div class="flex justify-start items-center w-full mb-4 md:mb-0">
+                                            <span class="mr-2">Adauga nota:</span>
+                                            <div class="grid gap-1 grid-cols-10">
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_1" type="radio" name="radio">
+                                                    <label
+                                                        class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_1">
+                                                        <span class="text-xs font-medium">1</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_2" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_2">
+                                                        <span class="text-xs font-medium">2</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_3" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_3">
+                                                        <span class="text-xs font-medium">3</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_4" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_4">
+                                                        <span class="text-xs font-medium">4</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_5" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_5">
+                                                        <span class="text-xs font-medium">5</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_6" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_6">
+                                                        <span class="text-xs font-medium">6</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_7" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_7">
+                                                        <span class="text-xs font-medium">7</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_8" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_8">
+                                                        <span class="text-xs font-medium">8</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_9" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_9">
+                                                        <span class="text-xs font-medium">9</span>
+                                                    </label>
+                                                </div>
+                                                <div class="flex justify-center items-center">
+                                                    <input class="hidden rating-input" id="radio_10" type="radio" name="radio">
+                                                    <label class="flex justify-center items-center w-5 h-5 rounded-full border border-gray-400 text-gray-400 cursor-pointer"
+                                                        for="radio_10">
+                                                        <span class="text-xs font-medium">10</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <input type='submit'
                                             class="bg-white text-sm text-gray-700 font-medium py-1 px-4 border border-gray-400 rounded-lg tracking-wide mr-1 hover:bg-gray-100"
                                             value='Posteaza Recenzia'>
