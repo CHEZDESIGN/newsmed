@@ -13,8 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "build": "NODE_ENV=production postcss assets/css/tailwind.css -o build/tailwind.css",
-    "dev": "npx tailwindcss-cli@latest build assets/css/tailwind.css -o dist/tailwind.css",
-    "watch": "postcss -w assets/css/tailwind.css -o dist/tailwind.css"
+    "dev": "npx tailwindcss-cli@latest build assets/css/tailwind.css -o build/tailwind.css",
+    "watch": "postcss -w assets/css/tailwind.css -o build/tailwind.css"
   },
   "keywords": [],
   "author": "",
